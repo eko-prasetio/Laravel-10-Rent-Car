@@ -23,6 +23,7 @@
             <div class="pull-right mb-2">
                 <a href="{{route('admin.brand')}}" class="btn btn-outline-primary px-5 radius-30">List Brand Mobil</a>
                 <a href="{{route('admin.type')}}" class="btn btn-outline-primary px-5 radius-30">List Type Mobil</a>
+                <a href="{{route('add.car')}}" class="btn btn-outline-primary px-5 radius-30">List Mobil</a>
             </div>
         </div>       
     </div>

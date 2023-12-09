@@ -30,7 +30,6 @@ class AdminController extends Controller
        ]);
        return redirect()->route('admin.brand');
     }
-
     public function EditBrand($id){
         $brand = Brand::findOrFail($id);
         return view('admin.edit_brand',compact('brand'));
@@ -68,6 +67,10 @@ class AdminController extends Controller
              'updated_at' => Carbon::now(),
         ]);
         return redirect()->route('admin.type');
+     }
+
+     public function AddCar(){
+        return view('admin.add_car');
      }
 
 }

@@ -15,5 +15,12 @@ Tampilan setelah login yaitu list untuk membuat master data
 List Brand Mobil || terdapat action add edit dan delete
 ![Alt text](image-2.png)
 
-Add Mobil 
+Add Brand Mobil 
 ![Alt text](image-3.png)
+
+
+List Type Mobil || terdapat action add edit dan delete
+![Alt text](image-4.png)
+
+Add Type Mobil
+![Alt text](image-5.png)

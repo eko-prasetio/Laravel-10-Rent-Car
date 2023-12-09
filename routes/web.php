@@ -40,7 +40,8 @@ Route::middleware(['auth','roles:admin'])->group(function(){
     Route::get('/edit/brand/{id}',[AdminController::class, 'EditBrand'])->name('brand.edit');
     Route::post('/update/brand',[AdminController::class, 'UpdateBrand'])->name('brand.update');
     Route::get('/delete/brand/{id}',[AdminController::class, 'DeleteBrand'])->name('brand.delete');
-
+    
+    Route::get('/add/car',[AdminController::class, 'AddCar'])->name('add.car');
 
     Route::get('/admin/type',[AdminController::class, 'AddType'])->name('admin.type');
     Route::get('/add/type',[AdminController::class, 'AddTypeData'])->name('add.type');
